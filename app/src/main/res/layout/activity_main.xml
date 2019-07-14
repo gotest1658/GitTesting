@@ -4,13 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
    <TextView
-       android:layout_gravity="center"
        android:textSize="30sp"
        android:text="Git testing"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <Button
+       android:text="click me"
        android:layout_width="wrap_content"
        android:layout_height="wrap_content" />
 
